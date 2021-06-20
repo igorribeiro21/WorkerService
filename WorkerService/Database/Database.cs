@@ -26,12 +26,7 @@ namespace WorkerService
             DataTable dt = new DataTable();
             try
             {
-                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-
-                //builder.DataSource = "localhost\\SQLEXPRESS";
-                //builder.UserID = "sa";
-                //builder.Password = "Saobento21";
-                //builder.InitialCatalog = "Teste";
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();            
 
                 builder.ConnectionString = Configuration.GetConnectionString("TesteDB");
 
