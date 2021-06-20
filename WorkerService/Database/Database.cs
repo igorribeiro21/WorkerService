@@ -57,8 +57,7 @@ namespace WorkerService
                                 //commandInsert.ExecuteNonQuery();
 
 
-                            }
-                            //_logger.LogInformation("{0}", reader.GetString(0));
+                            }                            
 
                             connection.Close();
 
